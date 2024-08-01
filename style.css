@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Goblin+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: 'Poppins' , sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p{
+    color: rgb(103, 102, 102);
+    text-align: center;
+    font-size: 20px;
+}
+.logo{
+    text-align: center;
+    padding: 1px;
+}
+.logo span{
+    color: #074173;
+    text-shadow: 0 0 10px rgba(89, 86, 86, 0.3);
+}
+#file{
+    visibility: hidden;
+}
+body{
+    background-color: #e2f1cf;
+}
+main{
+    position: fixed;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   transform: translateX(18%);
+}
+.container{
+    height: 520px;
+    width: 150vh;
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+canvas {
+    position: fixed;
+    height: 250px;
+    width: 500px;
+    background-color: #d9d6d6;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 180px;
+}
+canvas img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0;
+}
+.editing {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    margin-top: 300px;
+}
+button{
+
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #90d26d;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #6b9a51;
+}
+.sr-only{
+    margin-bottom: 470px;
+    position: fixed;
+}
+
+.actions{
+    position: fixed;
+    margin-top: 470px;
+}
+.actions a {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #90d26d;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.actions a:hover{
+    background-color: #6b9a51;
+}
+
+
+.editing h2 {
+    text-align: center;
+}
+.range p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.range .filed input {
+	-webkit-appearance: none;
+	height: 3px;
+	background: #ddd;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+
+
+}
+.range .filed input::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 20px;
+	width: 20px;
+	background-color: #90d26d;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

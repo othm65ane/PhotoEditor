@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Multividia Test : )</title>
+</head>
+<body>
+    <div class="logo">
+       <h1>Photo<span>Editor</span></h1> 
+    </div>
+    <main>
+        <form>  
+            <input type="file" accept="image/*" name="image" id="file">
+        </form>
+        <div class="container">
+            <button for="image" class="sr-only">Upload image <i class="ri-upload-cloud-2-line"></i></button>
+            <canvas>
+
+            </canvas>
+            <div class="editing">
+            <div class="buttons">
+                
+                <div class="filters">
+                    <h2 class="type">Filters</h2>
+                    <button id="grayscale">Gray scale</button>
+                    <button id="monotone">Blue monton</button>
+                    <button id="duotone">Orange Blue</button>
+                </div>
+            </div>
+            
+            <div class="range">
+                <h2 >Adjustment</h2>
+                <div class="box">
+                    <p>Contrast <i class="ri-contrast-line"></i></p>
+                    <div class="filed ">
+                        <input  type="range" id="contrast" min="0" max="200" value="100 ">
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Brightness <i class="ri-sun-line icons"></i></p>
+                    <div class="filed two">
+                        <input  type="range" id="bright" min="0" max="200" value="100 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <button id="reset"><i class="ri-loop-left-line"></i> Reset</button>
+            <a href="#" id="download"><i class="ri-save-line icons"></i> Save</a>
+        </div>
+        </div>
+    </main>
+    <p class="p">Created By Othmane Charfaoui</p>
+    <script defer src="style.js"></script>
+</body>
+</html>
